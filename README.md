@@ -1,5 +1,11 @@
 ## Management crud app
 
+### Requirements
+
+* PHP 8.* >
+* Node 20.* > (and npm)
+* MySQL 5.* >
+
 ### Clone
 
 ```bash
