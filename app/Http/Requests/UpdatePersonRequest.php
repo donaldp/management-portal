@@ -21,7 +21,10 @@ class UpdatePersonRequest extends FormRequest
         return [
             'first_name' => 'required|min:2|max:100',
             'last_name' => 'required|min:2|max:100',
-            'id_number' => [new ZAIDNumber(), 'unique:people'],
+            'id_number' => [
+                new ZAIDNumber(),
+                Rule::unique('people', 'email_address')->ignore($personId)
+            ],
             'mobile_number' => [
                 'required',
                 'digits:10',
