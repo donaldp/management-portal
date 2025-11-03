@@ -25,7 +25,7 @@ Set your mysql and mail server information.
 
 > For faster setup, you can leave mail config as is. All outgoing emails will be logged to `storage/logs/laravel.log`
 
-Once configuring your app, cache your env:
+Once done configuring your app, cache your env:
 
 ```bash
 php artisan config:cache
