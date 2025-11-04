@@ -52,7 +52,7 @@ npm run build
 ### Start queue worker
 
 ```bash
-hp artisan queue:work
+php artisan queue:work
 ```
 
 ### Run app
