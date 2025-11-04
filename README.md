@@ -49,6 +49,12 @@ php artisan migrate:fresh --seed
 npm run build
 ```
 
+### Start queue worker
+
+```bash
+hp artisan queue:work
+```
+
 ### Run app
 
 ```bash
